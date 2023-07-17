@@ -51,12 +51,12 @@ async fn main() -> Result<(), Box<dyn Error + Send + Sync>> {
     let items = get_all_items(contract.clone()).await?;
     item.insert_many(items, None).await?;
 
-    listen_for_add_collection_events(&contract, &collection, &item).await?;
+    listen_for_events(&contract, &collection, &item).await?;
 
     Ok(())
 }
 
-async fn listen_for_add_collection_events(
+async fn listen_for_events(
     contract: &Marketplace<Provider<Http>>,
     collection: &mongodb::Collection<models::NFTCollection>,
     item: &mongodb::Collection<models::Item>,
