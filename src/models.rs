@@ -10,11 +10,11 @@ pub struct Collection {
 
 #[derive(Debug, Serialize, Deserialize)]
 pub struct Item {
-    pub item_id: i32, 
-    pub nft_contract: String,
-    pub token_id: i32,
-    pub owner: String,
-    pub price: i32,
+    pub item_id: u64, 
+    pub nft_contract: H160,
+    pub token_id: u64,
+    pub owner: H160,
+    pub price: u64,
     pub name: Option<String>,
     pub description: Option<String>,
     pub image: Option<String>,
@@ -22,10 +22,10 @@ pub struct Item {
 
 #[derive(Debug, Serialize, Deserialize)]
 pub struct Offer{
-    pub item_id: i32,
+    pub item_id: u64,
     pub offerer: String,
     pub seller: String,
-    pub price: i32,
+    pub price: u64,
     pub is_accepted: bool
 }
 
