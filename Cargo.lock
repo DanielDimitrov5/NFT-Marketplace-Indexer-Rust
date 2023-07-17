@@ -1991,6 +1991,7 @@ dependencies = [
  "ethers",
  "eyre",
  "futures",
+ "hex",
  "mongodb",
  "serde",
  "serde_json",

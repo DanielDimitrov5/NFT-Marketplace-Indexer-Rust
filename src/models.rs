@@ -2,7 +2,7 @@ use serde::{Serialize, Deserialize};
 use ethers::types::H160;
 
 #[derive(Serialize, Deserialize, Debug)]
-pub struct Collection {
+pub struct NFTCollection {
     pub id: String,
     pub nft_collection: H160
 }
