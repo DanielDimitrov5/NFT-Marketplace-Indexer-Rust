@@ -1,16 +1,14 @@
-Collection 2 of 8 fetched 
-Collection 1 of 8 fetched 
-Collection 3 of 8 fetched 
-Collection 6 of 8 fetched 
-Collection 4 of 8 fetched 
-Collection 5 of 8 fetched 
-Collection 7 of 8 fetched 
-Collection 8 of 8 fetched 
+Collection 3 of 3 fetched 
+Collection 1 of 3 fetched 
+Collection 2 of 3 fetched 
+Item 2 added 
 Item 3 added 
-Item 1 added 
+Item 7 added 
 Item 5 added 
 Item 6 added 
-Item 2 added 
-Item 7 added 
+Item 1 added 
 Item 4 added 
-Offer placed: LogOfferPlacedFilter { id: 3, nft_contract: 0x9ead6126c3d4cc53a610e178c0f8014aa9c37f43, token_id: 1, buyer: 0x3ce0370ab561909c762f4a30577461182b525f25, price: 1990000000000000 }
+Item 8 added 
+Offer 1 added 
+Offer 7 added 
+Offer 8 added 

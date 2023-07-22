@@ -7,7 +7,6 @@ pub struct NFTCollection {
     pub nft_collection: H160
 }
 
-
 #[derive(Debug, Serialize, Deserialize)]
 pub struct Item {
     pub item_id: u64, 
@@ -23,8 +22,8 @@ pub struct Item {
 #[derive(Debug, Serialize, Deserialize)]
 pub struct Offer{
     pub item_id: u64,
-    pub offerer: String,
-    pub seller: String,
+    pub offerer: H160,
+    pub seller: H160,
     pub price: u64,
     pub is_accepted: bool
 }
