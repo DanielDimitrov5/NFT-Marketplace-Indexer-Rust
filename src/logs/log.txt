@@ -1,17 +1,22 @@
-Collection 2 of 3 fetched 
-Collection 3 of 3 fetched 
 Collection 1 of 3 fetched 
+Collection 3 of 3 fetched 
+Collection 2 of 3 fetched 
+Item 1 added 
+Item 2 added 
 Item 3 added 
 Item 5 added 
-Item 8 added 
-Item 2 added 
-Item 1 added 
-Item 7 added 
 Item 4 added 
 Item 6 added 
-Offer 8 added 
+Item 8 added 
+Item 7 added 
+Offer 4 added 
+Offer 4 added 
 Offer 3 added 
-Offer 7 added 
-Offer 2 added 
-Offer 2 added 
 Offer 5 added 
+Offer 2 added 
+Offer 2 added 
+Offer 7 added 
+Offer 8 added 
+Item 1 listed for 990000000000000 wei 
+Item 2 listed for 1000000000000000 wei 
+Item 6 listed for 550000000000000 wei 
